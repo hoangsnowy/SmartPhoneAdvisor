@@ -55,7 +55,4 @@
 - GitHub Actions CI/CD
 - JSON tri thức từ file
 
----
-
-## 🌟 Tác giả: NGUYỄN MINH HOÀNG - HỆ CỔ SỔ TRI THỨC
 
