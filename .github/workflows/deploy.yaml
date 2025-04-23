@@ -23,7 +23,7 @@ jobs:
           dotnet build --configuration Release
 
       - name: 🔨 Publish Blazor project
-        run: dotnet publish SmartPhoneAdvisor/SmartPhoneAdvisor.csproj -c Release -o dist /p:BaseHref="/SmartPhoneAdvisor/"
+        run: dotnet publish SmartPhoneAdvisor.csproj -c Release -o dist /p:BaseHref="/SmartPhoneAdvisor/"
 
       - name: 🔧 Update base href in index.html
         run: sed -i 's|<base href="/"|<base href="/SmartPhoneAdvisor/"|g' dist/wwwroot/index.html
