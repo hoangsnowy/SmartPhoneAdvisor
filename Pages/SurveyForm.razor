@@ -1,0 +1,128 @@
+@page "/survey"
+@using SmartPhoneAdvisor.Models
+@using SmartPhoneAdvisor.Services
+@using Microsoft.AspNetCore.Components.Forms
+@using Microsoft.AspNetCore.Components
+@using System.ComponentModel.DataAnnotations
+@inject NavigationManager Navigation
+@inject UserState UserState
+
+<h3 class="text-center mt-4">📋 Khảo sát nhu cầu sử dụng điện thoại</h3>
+
+<div class="container mt-4">
+    <div class="card shadow border-primary">
+        <div class="card-body">
+            <EditForm Model="userInput" OnValidSubmit="HandleSubmit">
+                <DataAnnotationsValidator />
+                <ValidationSummary />
+
+                <div class="mb-3">
+                    <label class="form-label">Giới tính</label><br />
+                    <InputRadioGroup @bind-Value="userInput.Gender">
+                        <InputRadio class="form-check-input" Value="Nam" /> Nam
+                        <InputRadio class="form-check-input ms-3" Value="Nu" /> Nữ
+                    </InputRadioGroup>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Độ tuổi</label>
+                    <InputSelect class="form-select" @bind-Value="userInput.AgeGroup">
+                        <option value="">-- Chọn độ tuổi --</option>
+                        <option value="< 18">Dưới 18</option>
+                        <option value="18-25">18 - 25</option>
+                        <option value="26-35">26 - 35</option>
+                        <option value="36-50">36 - 50</option>
+                        <option value="> 50">Trên 50</option>
+                    </InputSelect>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Ngân sách</label>
+                    <InputSelect class="form-select" @bind-Value="userInput.Budget">
+                        <option value="">-- Chọn mức giá --</option>
+                        <option value="dưới 3 triệu">Dưới 3 triệu</option>
+                        <option value="3-5 triệu">3 - 5 triệu</option>
+                        <option value="5-10 triệu">5 - 10 triệu</option>
+                        <option value="10-15 triệu">10 - 15 triệu</option>
+                        <option value="trên 15 triệu">Trên 15 triệu</option>
+                    </InputSelect>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Nhu cầu sử dụng</label><br />
+                    @foreach (var nhuCau in NhuCauOptions)
+                    {
+                        <div class="form-check form-check-inline">
+                            <input type="checkbox" class="form-check-input"
+                                   @onchange="e => ToggleNeed(nhuCau, e.Value?.ToString())"
+                                   checked="@userInput.Needs.Contains(nhuCau)" />
+                            <label class="form-check-label">@nhuCau</label>
+                        </div>
+                    }
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Màu sắc yêu thích</label>
+                    <InputSelect class="form-select" @bind-Value="userInput.Color">
+                        <option value="">-- Chọn màu sắc --</option>
+                        <option value="đen">Đen</option>
+                        <option value="trắng">Trắng</option>
+                        <option value="hồng">Hồng</option>
+                        <option value="xanh">Xanh</option>
+                        <option value="vàng">Vàng</option>
+                    </InputSelect>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">Thương hiệu yêu thích</label>
+                    <InputSelect class="form-select" @bind-Value="userInput.Brand">
+                        <option value="">-- Chọn thương hiệu --</option>
+                        <option value="Apple">Apple</option>
+                        <option value="Samsung">Samsung</option>
+                        <option value="Xiaomi">Xiaomi</option>
+                        <option value="OPPO">OPPO</option>
+                        <option value="Vivo">Vivo</option>
+                        <option value="Realme">Realme</option>
+                    </InputSelect>
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label">🔍 Chọn thuật toán suy diễn</label>
+                    <InputSelect class="form-select" @bind-Value="userInput.InferenceMethod">
+                        <option value="Rule">Suy diễn theo luật</option>
+                        <option value="DecisionTree">Học máy (Decision Tree)</option>
+                        <option value="BFS">Tìm kiếm BFS</option>
+                    </InputSelect>
+                </div>
+
+                <button type="submit" class="btn btn-primary w-100">Tư vấn ngay</button>
+            </EditForm>
+        </div>
+    </div>
+</div>
+
+@code {
+    private string Nam = "Nam";
+    private string Nu = "Nữ";
+    private UserInput userInput = new();
+    private List<string> NhuCauOptions = new()
+    {
+        "chơi game", "chơi game nặng", "học tập", "online learning", "chụp ảnh", "gọi điện",
+        "giải trí", "công việc", "pin trâu", "camera đẹp", "bảo mật cao", "bền bỉ", "dễ sử dụng"
+    };
+
+    private void ToggleNeed(string need, string? changed)
+    {
+        if (userInput.Needs.Contains(need))
+            userInput.Needs.Remove(need);
+        else
+            userInput.Needs.Add(need);
+    }
+
+    private Task HandleSubmit()
+    {
+      UserState.CurrentInput = userInput;
+      Navigation.NavigateTo("/result");
+      return Task.CompletedTask;
+    }
+}

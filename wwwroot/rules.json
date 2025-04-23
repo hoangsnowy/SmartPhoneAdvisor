@@ -1,0 +1,721 @@
+[
+  {
+    "Id": "R01",
+    "Conditions": {
+      "Gender": "Nam"
+    },
+    "Recommendation": "ưu tiên điện thoại có thiết kế mạnh mẽ.",
+    "Certainty": 0.85
+  },
+  {
+    "Id": "R02",
+    "Conditions": {
+      "Gender": "Nữ"
+    },
+    "Recommendation": "ưu tiên điện thoại nhỏ gọn và màu sắc tươi sáng.",
+    "Certainty": 0.88
+  },
+  {
+    "Id": "R03",
+    "Conditions": {
+      "Gender": "Nam",
+      "Needs": [
+        "chơi game"
+      ]
+    },
+    "Recommendation": "gợi ý điện thoại gaming chuyên dụng.",
+    "Certainty": 0.91
+  },
+  {
+    "Id": "R04",
+    "Conditions": {
+      "Gender": "Nữ",
+      "Needs": [
+        "chụp ảnh"
+      ]
+    },
+    "Recommendation": "gợi ý điện thoại có camera selfie chất lượng.",
+    "Certainty": 0.9
+  },
+  {
+    "Id": "R05",
+    "Conditions": {
+      "Gender": "Nữ"
+    },
+    "Recommendation": "ưu tiên điện thoại tầm trung có thiết kế đẹp.",
+    "Certainty": 0.92
+  },
+  {
+    "Id": "R06",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại giá rẻ phục vụ học tập.",
+    "Certainty": 0.85
+  },
+  {
+    "Id": "R07",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại cấu hình cao, pin khỏe.",
+    "Certainty": 0.9
+  },
+  {
+    "Id": "R08",
+    "Conditions": {},
+    "Recommendation": "ưu tiên điện thoại phục vụ công việc và chụp ảnh.",
+    "Certainty": 0.9
+  },
+  {
+    "Id": "R09",
+    "Conditions": {},
+    "Recommendation": "ưu tiên điện thoại thương hiệu uy tín, dễ sử dụng.",
+    "Certainty": 0.88
+  },
+  {
+    "Id": "R10",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại chữ to, giao diện đơn giản.",
+    "Certainty": 0.92
+  },
+  {
+    "Id": "R11",
+    "Conditions": {
+      "Needs": [
+        "chơi game"
+      ]
+    },
+    "Recommendation": "gợi ý điện thoại có vi xử lý mạnh và tản nhiệt tốt.",
+    "Certainty": 0.88
+  },
+  {
+    "Id": "R12",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại màn hình lớn, pin trên 5000mAh.",
+    "Certainty": 0.9
+  },
+  {
+    "Id": "R13",
+    "Conditions": {
+      "Needs": [
+        "chụp ảnh"
+      ]
+    },
+    "Recommendation": "gợi ý điện thoại có camera chính 50MP trở lên và chống rung.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R14",
+    "Conditions": {},
+    "Recommendation": "ưu tiên điện thoại có bảo mật cao, hỗ trợ eSIM.",
+    "Certainty": 0.94
+  },
+  {
+    "Id": "R15",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại có loa stereo và màn hình AMOLED.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R16",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại có camera góc rộng và chống rung tốt.",
+    "Certainty": 0.89
+  },
+  {
+    "Id": "R17",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại giá rẻ như Redmi 12C, Realme C51.",
+    "Certainty": 0.93
+  },
+  {
+    "Id": "R18",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại tầm trung như Galaxy A14, Redmi Note 13.",
+    "Certainty": 0.9
+  },
+  {
+    "Id": "R19",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại cận cao cấp như iPhone 13, Galaxy S22.",
+    "Certainty": 0.91
+  },
+  {
+    "Id": "R20",
+    "Conditions": {
+      "Budget": "trên 15 triệu"
+    },
+    "Recommendation": "gợi ý flagship như iPhone 15 Pro Max hoặc Galaxy S24 Ultra.",
+    "Certainty": 0.93
+  },
+  {
+    "Id": "R21",
+    "Conditions": {
+      "Color": "đen"
+    },
+    "Recommendation": "ưu tiên điện thoại có thiết kế sang trọng.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R22",
+    "Conditions": {
+      "Color": "hồng"
+    },
+    "Recommendation": "gợi ý iPhone 15 màu hồng hoặc Galaxy Z Flip tím.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R23",
+    "Conditions": {
+      "Color": "trắng"
+    },
+    "Recommendation": "gợi ý điện thoại mặt lưng kính sáng bóng.",
+    "Certainty": 0.91
+  },
+  {
+    "Id": "R24",
+    "Conditions": {
+      "Color": "xanh"
+    },
+    "Recommendation": "gợi ý Oppo Reno8 xanh mint hoặc Redmi Note xanh.",
+    "Certainty": 0.9
+  },
+  {
+    "Id": "R25",
+    "Conditions": {},
+    "Recommendation": "gợi ý iPhone từ iPhone 13 trở lên.",
+    "Certainty": 0.9
+  },
+  {
+    "Id": "R26",
+    "Conditions": {
+      "Brand": "Samsung"
+    },
+    "Recommendation": "gợi ý Galaxy A hoặc Galaxy S theo ngân sách.",
+    "Certainty": 0.9
+  },
+  {
+    "Id": "R27",
+    "Conditions": {
+      "Brand": "Xiaomi"
+    },
+    "Recommendation": "gợi ý Redmi Note hoặc Xiaomi 13.",
+    "Certainty": 0.94
+  },
+  {
+    "Id": "R28",
+    "Conditions": {
+      "Brand": "Oppo"
+    },
+    "Recommendation": "gợi ý dòng Reno hoặc Find X.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R29",
+    "Conditions": {
+      "Brand": "Vivo"
+    },
+    "Recommendation": "gợi ý Vivo V series, nổi bật về selfie.",
+    "Certainty": 0.93
+  },
+  {
+    "Id": "R30",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại có pin trâu và màn hình lớn.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R31",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại có AI chỉnh màu sống động.",
+    "Certainty": 0.92
+  },
+  {
+    "Id": "R32",
+    "Conditions": {},
+    "Recommendation": "loại trừ Xiaomi, Realme, Vivo.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R33",
+    "Conditions": {},
+    "Recommendation": "gợi ý iPhone hoặc Google Pixel.",
+    "Certainty": 0.87
+  },
+  {
+    "Id": "R34",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại có eSIM và kháng nước chuẩn IP68.",
+    "Certainty": 0.92
+  },
+  {
+    "Id": "R35",
+    "Conditions": {
+      "Gender": "Nam",
+      "Needs": [
+        "chơi game"
+      ]
+    },
+    "Recommendation": "gợi ý ASUS ROG Phone 8 hoặc Poco F5.",
+    "Certainty": 0.87
+  },
+  {
+    "Id": "R36",
+    "Conditions": {
+      "Gender": "Nữ"
+    },
+    "Recommendation": "gợi ý Vivo V30 hoặc Oppo Reno10.",
+    "Certainty": 0.9
+  },
+  {
+    "Id": "R37",
+    "Conditions": {
+      "Gender": "Nam"
+    },
+    "Recommendation": "gợi ý iPhone 14 Pro.",
+    "Certainty": 0.92
+  },
+  {
+    "Id": "R38",
+    "Conditions": {
+      "Gender": "Nữ"
+    },
+    "Recommendation": "gợi ý Redmi A2 hoặc Galaxy A05.",
+    "Certainty": 0.89
+  },
+  {
+    "Id": "R39",
+    "Conditions": {
+      "Gender": "Nam",
+      "Brand": "Samsung"
+    },
+    "Recommendation": "gợi ý Galaxy A34.",
+    "Certainty": 0.94
+  },
+  {
+    "Id": "R40",
+    "Conditions": {
+      "Gender": "Nữ",
+      "Color": "hồng",
+      "Needs": [
+        "chụp ảnh"
+      ]
+    },
+    "Recommendation": "gợi ý Z Flip 5 hoặc iPhone 15 màu hồng.",
+    "Certainty": 0.91
+  },
+  {
+    "Id": "R41",
+    "Conditions": {
+      "Gender": "Nam"
+    },
+    "Recommendation": "gợi ý Vivo V27 hoặc iPhone 13.",
+    "Certainty": 0.88
+  },
+  {
+    "Id": "R42",
+    "Conditions": {},
+    "Recommendation": "gợi ý Nokia C32 hoặc iPhone SE.",
+    "Certainty": 0.87
+  },
+  {
+    "Id": "R43",
+    "Conditions": {},
+    "Recommendation": "gợi ý Pixel 7a, ưu tiên camera và cập nhật Android.",
+    "Certainty": 0.91
+  },
+  {
+    "Id": "R44",
+    "Conditions": {},
+    "Recommendation": "loại trừ iPhone bản Mỹ.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R45",
+    "Conditions": {
+      "Gender": "Nam"
+    },
+    "Recommendation": "gợi ý Poco X5 hoặc Redmi Note 12.",
+    "Certainty": 0.87
+  },
+  {
+    "Id": "R46",
+    "Conditions": {
+      "Gender": "Nữ"
+    },
+    "Recommendation": "gợi ý iPhone 13 mini hoặc Galaxy Z Flip.",
+    "Certainty": 0.89
+  },
+  {
+    "Id": "R47",
+    "Conditions": {},
+    "Recommendation": "gợi ý Pixel 6 hoặc OnePlus Nord 3.",
+    "Certainty": 0.91
+  },
+  {
+    "Id": "R48",
+    "Conditions": {},
+    "Recommendation": "gợi ý iPhone 14 Pro Max hoặc Galaxy S23 Ultra.",
+    "Certainty": 0.95
+  },
+  {
+    "Id": "R49",
+    "Conditions": {
+      "Needs": [
+        "chơi game"
+      ]
+    },
+    "Recommendation": "gợi ý Poco F5 hoặc OnePlus Ace.",
+    "Certainty": 0.87
+  },
+  {
+    "Id": "R50",
+    "Conditions": {
+      "Gender": "Nữ"
+    },
+    "Recommendation": "gợi ý Vivo V27 Pro hoặc iPhone 13.",
+    "Certainty": 0.9
+  },
+  {
+    "Id": "R51",
+    "Conditions": {
+      "Gender": "Nam"
+    },
+    "Recommendation": "gợi ý iPhone 15 Pro Max.",
+    "Certainty": 0.94
+  },
+  {
+    "Id": "R52",
+    "Conditions": {
+      "Gender": "Nữ",
+      "Brand": "Oppo",
+      "Needs": [
+        "chụp ảnh"
+      ]
+    },
+    "Recommendation": "gợi ý Oppo Reno10 Pro.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R53",
+    "Conditions": {
+      "Brand": "Samsung"
+    },
+    "Recommendation": "gợi ý Galaxy S23 Ultra.",
+    "Certainty": 0.9
+  },
+  {
+    "Id": "R54",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại có giao diện đơn giản, chữ to như Nokia C32.",
+    "Certainty": 0.9
+  },
+  {
+    "Id": "R55",
+    "Conditions": {
+      "Gender": "Nam"
+    },
+    "Recommendation": "gợi ý điện thoại Bphone B86.",
+    "Certainty": 0.88
+  },
+  {
+    "Id": "R56",
+    "Conditions": {},
+    "Recommendation": "gợi ý dòng gaming như ASUS ROG hoặc Infinix Zero Ultra.",
+    "Certainty": 0.89
+  },
+  {
+    "Id": "R57",
+    "Conditions": {
+      "Gender": "Nam"
+    },
+    "Recommendation": "ưu tiên điện thoại có hiệu năng cao và độ bền tốt.",
+    "Certainty": 0.9
+  },
+  {
+    "Id": "R58",
+    "Conditions": {
+      "Gender": "Nữ"
+    },
+    "Recommendation": "gợi ý Vivo V30 Pro hoặc Samsung Galaxy S series.",
+    "Certainty": 0.9
+  },
+  {
+    "Id": "R59",
+    "Conditions": {},
+    "Recommendation": "gợi ý Redmi 13C hoặc Realme Narzo N55.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R60",
+    "Conditions": {},
+    "Recommendation": "gợi ý iPhone 13 hoặc Galaxy A54.",
+    "Certainty": 0.87
+  },
+  {
+    "Id": "R61",
+    "Conditions": {
+      "Gender": "Nam"
+    },
+    "Recommendation": "gợi ý Xiaomi 13 Ultra hoặc Pixel 7 Pro.",
+    "Certainty": 0.89
+  },
+  {
+    "Id": "R62",
+    "Conditions": {
+      "Gender": "Nữ"
+    },
+    "Recommendation": "gợi ý Galaxy Z Flip 5.",
+    "Certainty": 0.89
+  },
+  {
+    "Id": "R63",
+    "Conditions": {},
+    "Recommendation": "gợi ý Sony Xperia 5 V.",
+    "Certainty": 0.88
+  },
+  {
+    "Id": "R64",
+    "Conditions": {},
+    "Recommendation": "gợi ý iPhone SE hoặc Galaxy A34, dễ dùng và pin lâu.",
+    "Certainty": 0.87
+  },
+  {
+    "Id": "R65",
+    "Conditions": {},
+    "Recommendation": "gợi ý iPhone 13 trở lên hoặc Galaxy S series.",
+    "Certainty": 0.88
+  },
+  {
+    "Id": "R66",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại rugged như Doogee hoặc Blackview.",
+    "Certainty": 0.91
+  },
+  {
+    "Id": "R67",
+    "Conditions": {
+      "Gender": "Nữ",
+      "Needs": [
+        "chụp ảnh"
+      ]
+    },
+    "Recommendation": "gợi ý Pixel 6a hoặc Vivo V series.",
+    "Certainty": 0.9
+  },
+  {
+    "Id": "R68",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại có mic thu âm tốt và camera trước >16MP.",
+    "Certainty": 0.95
+  },
+  {
+    "Id": "R69",
+    "Conditions": {},
+    "Recommendation": "gợi ý Apple iPhone hoặc Google Pixel.",
+    "Certainty": 0.89
+  },
+  {
+    "Id": "R70",
+    "Conditions": {},
+    "Recommendation": "gợi ý Nokia, Pixel hoặc Motorola.",
+    "Certainty": 0.87
+  },
+  {
+    "Id": "R71",
+    "Conditions": {
+      "Gender": "Nam",
+      "Brand": "Oppo",
+      "Needs": [
+        "giải trí"
+      ]
+    },
+    "Recommendation": "gợi ý Oppo Reno11.",
+    "Certainty": 0.89
+  },
+  {
+    "Id": "R72",
+    "Conditions": {
+      "Gender": "Nữ",
+      "Needs": [
+        "học tập",
+        "giải trí"
+      ]
+    },
+    "Recommendation": "gợi ý Redmi Note 13 hoặc Vivo Y series.",
+    "Certainty": 0.93
+  },
+  {
+    "Id": "R73",
+    "Conditions": {
+      "Gender": "Nam"
+    },
+    "Recommendation": "gợi ý Infinix Hot 30.",
+    "Certainty": 0.88
+  },
+  {
+    "Id": "R74",
+    "Conditions": {},
+    "Recommendation": "gợi ý iPhone 13 hoặc Galaxy S23, độ bảo mật cao.",
+    "Certainty": 0.93
+  },
+  {
+    "Id": "R75",
+    "Conditions": {},
+    "Recommendation": "gợi ý Pixel 7a hoặc iPhone 14.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R76",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại có hỗ trợ 5G đa băng tần.",
+    "Certainty": 0.89
+  },
+  {
+    "Id": "R77",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại có ống kính telemacro như Xiaomi 13.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R78",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại có màn hình AMOLED, độ phủ màu cao.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R79",
+    "Conditions": {},
+    "Recommendation": "gợi ý Redmi Note 12 Turbo hoặc Realme GT Neo.",
+    "Certainty": 0.93
+  },
+  {
+    "Id": "R80",
+    "Conditions": {},
+    "Recommendation": "gợi ý Galaxy S23 hoặc iPhone 14 Pro.",
+    "Certainty": 0.93
+  },
+  {
+    "Id": "R81",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại có RAM từ 8GB trở lên.",
+    "Certainty": 0.88
+  },
+  {
+    "Id": "R82",
+    "Conditions": {},
+    "Recommendation": "ưu tiên màn hình sáng > 1000 nits.",
+    "Certainty": 0.87
+  },
+  {
+    "Id": "R83",
+    "Conditions": {},
+    "Recommendation": "gợi ý iPhone 13 trở lên hoặc Galaxy S21 FE.",
+    "Certainty": 0.92
+  },
+  {
+    "Id": "R84",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại có chip xử lý ảnh tốt như iPhone, Pixel.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R85",
+    "Conditions": {},
+    "Recommendation": "gợi ý máy có màn hình 120Hz và tản nhiệt buồng hơi.",
+    "Certainty": 0.95
+  },
+  {
+    "Id": "R86",
+    "Conditions": {},
+    "Recommendation": "gợi ý iPhone 13 mini hoặc Galaxy S10e.",
+    "Certainty": 0.87
+  },
+  {
+    "Id": "R87",
+    "Conditions": {},
+    "Recommendation": "gợi ý Doogee V Max hoặc Samsung M51.",
+    "Certainty": 0.87
+  },
+  {
+    "Id": "R88",
+    "Conditions": {},
+    "Recommendation": "gợi ý Nokia G22 hoặc Xiaomi Redmi 10A.",
+    "Certainty": 0.92
+  },
+  {
+    "Id": "R89",
+    "Conditions": {},
+    "Recommendation": "gợi ý Pixel series hoặc Android One.",
+    "Certainty": 0.89
+  },
+  {
+    "Id": "R90",
+    "Conditions": {},
+    "Recommendation": "gợi ý máy có RAM từ 12GB trở lên.",
+    "Certainty": 0.85
+  },
+  {
+    "Id": "R91",
+    "Conditions": {},
+    "Recommendation": "gợi ý iPhone Pro hoặc Galaxy Ultra.",
+    "Certainty": 0.91
+  },
+  {
+    "Id": "R92",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại có DAC rời hoặc hỗ trợ LDAC.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R93",
+    "Conditions": {},
+    "Recommendation": "gợi ý máy nhẹ dưới 180g.",
+    "Certainty": 0.95
+  },
+  {
+    "Id": "R94",
+    "Conditions": {
+      "Needs": [
+        "chụp ảnh"
+      ]
+    },
+    "Recommendation": "gợi ý Pixel, iPhone Pro hoặc Vivo dòng X.",
+    "Certainty": 0.91
+  },
+  {
+    "Id": "R95",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại có OIS và EIS.",
+    "Certainty": 0.86
+  },
+  {
+    "Id": "R96",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại có camera trước sắc nét và mic kép.",
+    "Certainty": 0.93
+  },
+  {
+    "Id": "R97",
+    "Conditions": {
+      "Brand": "Iphone"
+    },
+    "Recommendation": "gợi ý nâng cấp lên iPhone 13 trở lên.",
+    "Certainty": 0.85
+  },
+  {
+    "Id": "R98",
+    "Conditions": {},
+    "Recommendation": "gợi ý chuyển sang điện thoại Android 13 trở lên.",
+    "Certainty": 0.93
+  },
+  {
+    "Id": "R99",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại màn hình lớn ≥ 6.7\".",
+    "Certainty": 0.92
+  },
+  {
+    "Id": "R100",
+    "Conditions": {},
+    "Recommendation": "gợi ý điện thoại màn hình gập như Galaxy Z Fold hoặc Flip.",
+    "Certainty": 0.89
+  }
+]

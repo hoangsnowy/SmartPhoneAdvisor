@@ -1,0 +1,65 @@
+@page "/result"
+@inject HttpClient Http
+@inject UserState UserState
+
+@using SmartPhoneAdvisor.Models
+@using SmartPhoneAdvisor.Services
+
+<h3 class="text-center mt-4">📱 Kết quả tư vấn</h3>
+
+@if (result is null)
+{
+    <p class="text-muted text-center">Đang xử lý...</p>
+}
+else
+{
+    <div class="alert alert-success text-center">
+        <h4>🔎 Gợi ý: <strong>@result.Value.recommendation</strong></h4>
+        <p>📊 Độ tin cậy: <strong>@(Math.Round(result.Value.cf * 100))%</strong></p>
+    </div>
+
+    <div class="card mt-4">
+        <div class="card-header bg-primary text-white">🧠 Diễn giải</div>
+        <div class="card-body">
+            <ul>
+                @foreach (var reason in result.Value.reasons)
+                {
+                    <li>@reason</li>
+                }
+            </ul>
+        </div>
+    </div>
+}
+
+@code {
+  private (string recommendation, double cf, List<string> reasons)? result;
+
+  protected override async Task OnInitializedAsync()
+  {
+    if (UserState.CurrentInput == null)
+    {
+      result = ("Chưa có dữ liệu khảo sát", 0.0, new List<string>());
+      return;
+    }
+
+    IInferenceEngine engine;
+
+    switch (UserState.CurrentInput.InferenceMethod)
+    {
+      case "DecisionTree":
+        var trainingData = await Http.GetFromJsonAsync<List<Dictionary<string, object>>>("training-data.json");
+        engine = new DecisionTreeEngine(trainingData!);
+        break;
+      case "BFS":
+        var graph = await Http.GetFromJsonAsync<Dictionary<string, List<string>>>("rule_graph.json");
+        engine = new BFSRuleEngine(graph!);
+        break;
+      default:
+        var rules = await Http.GetFromJsonAsync<List<Rule>>("rules.json");
+        engine = new RuleEngine(rules!);
+        break;
+    }
+
+    result = engine.Evaluate(UserState.CurrentInput);
+  }
+}

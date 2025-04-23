@@ -1,0 +1,40 @@
+name: 🚀 Deploy Blazor WebAssembly to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  build-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 📥 Checkout source
+        uses: actions/checkout@v3
+
+      - name: ⚙️ Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: 🔨 Restore & Build
+        run: |
+          dotnet restore
+          dotnet build --configuration Release
+
+      - name: 🔨 Publish Blazor project
+        run: dotnet publish SmartPhoneAdvisor/SmartPhoneAdvisor.csproj -c Release -o dist /p:BaseHref="/SmartPhoneAdvisor/"
+
+      - name: 🔧 Update base href in index.html
+        run: sed -i 's|<base href="/"|<base href="/SmartPhoneAdvisor/"|g' dist/wwwroot/index.html
+
+      - name: 📁 Add .nojekyll
+        run: echo "" > dist/wwwroot/.nojekyll
+
+      - name: 🚀 Deploy to GitHub Pages
+        uses: JamesIves/github-pages-deploy-action@v4
+        with:
+          branch: gh-pages
+          folder: dist/wwwroot
+          clean: true
+          token: ${{ secrets.GH_PAT }}
