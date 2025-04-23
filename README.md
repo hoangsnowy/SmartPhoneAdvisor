@@ -19,8 +19,8 @@
 | Engine | Tên | Cách hoạt động |
 |--------|------|-------------------------------|
 | ✨ RuleEngine | Suy diễn theo luật (Forward Chaining + CF) | Match sự kiện với luật để suy ra gợi ý có độ tin cậy cao nhất |
-| ✨ DecisionTree | Học máy (Decision Tree) | So sánh đầu vào với dữ liệu huấn luyện từ `training-data-from-rules.json` |
-| ✨ BFSRuleEngine | Tìm kiếm theo đồ thị suy diễn | Duyệt BFS từ `Needs` tới kết luận từ `rule_graph-from-rules.json` |
+| ✨ DecisionTree | Học máy (Decision Tree) | So sánh đầu vào với dữ liệu huấn luyện từ `training-data.json` |
+| ✨ BFSRuleEngine | Tìm kiếm theo đồ thị suy diễn | Duyệt BFS từ `Needs` tới kết luận từ `rule_graph.json` |
 
 ---
 
@@ -36,8 +36,8 @@
 | Tên file | Mô tả |
 |-----------|--------|
 | `rules.json` | Danh sách 100 luật suy diễn gốc (RuleEngine dùng) |
-| `training-data-from-rules.json` | Chuyển từ rules để huấn luyện DecisionTree |
-| `rule_graph-from-rules.json` | Sinh graph từ luật cho duyệt BFS |
+| `training-data.json` | Chuyển từ rules để huấn luyện DecisionTree |
+| `rule_graph.json` | Sinh graph từ luật cho duyệt BFS |
 
 ---
 
@@ -45,7 +45,7 @@
 
 1. Push mã nguồn lên branch `main`
 2. GitHub Actions sẽ publish thư mục `wwwroot` vào branch `gh-pages`
-3. Truy cập website tại: `https://<your-username>.github.io/SmartPhoneAdvisor/`
+3. Truy cập website tại: `https://hoangsnowy.github.io/SmartPhoneAdvisor/`
 
 ---
 
