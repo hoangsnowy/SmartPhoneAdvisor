@@ -1,0 +1,380 @@
+[
+  {
+    "Gender": "Nam",
+    "Label": "ưu tiên điện thoại có thiết kế mạnh mẽ."
+  },
+  {
+    "Gender": "Nữ",
+    "Label": "ưu tiên điện thoại nhỏ gọn và màu sắc tươi sáng."
+  },
+  {
+    "Gender": "Nam",
+    "Needs": [
+      "chơi game"
+    ],
+    "Label": "gợi ý điện thoại gaming chuyên dụng."
+  },
+  {
+    "Gender": "Nữ",
+    "Needs": [
+      "chụp ảnh"
+    ],
+    "Label": "gợi ý điện thoại có camera selfie chất lượng."
+  },
+  {
+    "Gender": "Nữ",
+    "Label": "ưu tiên điện thoại tầm trung có thiết kế đẹp."
+  },
+  {
+    "Label": "gợi ý điện thoại giá rẻ phục vụ học tập."
+  },
+  {
+    "Label": "gợi ý điện thoại cấu hình cao, pin khỏe."
+  },
+  {
+    "Label": "ưu tiên điện thoại phục vụ công việc và chụp ảnh."
+  },
+  {
+    "Label": "ưu tiên điện thoại thương hiệu uy tín, dễ sử dụng."
+  },
+  {
+    "Label": "gợi ý điện thoại chữ to, giao diện đơn giản."
+  },
+  {
+    "Needs": [
+      "chơi game"
+    ],
+    "Label": "gợi ý điện thoại có vi xử lý mạnh và tản nhiệt tốt."
+  },
+  {
+    "Label": "gợi ý điện thoại màn hình lớn, pin trên 5000mAh."
+  },
+  {
+    "Needs": [
+      "chụp ảnh"
+    ],
+    "Label": "gợi ý điện thoại có camera chính 50MP trở lên và chống rung."
+  },
+  {
+    "Label": "ưu tiên điện thoại có bảo mật cao, hỗ trợ eSIM."
+  },
+  {
+    "Label": "gợi ý điện thoại có loa stereo và màn hình AMOLED."
+  },
+  {
+    "Label": "gợi ý điện thoại có camera góc rộng và chống rung tốt."
+  },
+  {
+    "Label": "gợi ý điện thoại giá rẻ như Redmi 12C, Realme C51."
+  },
+  {
+    "Label": "gợi ý điện thoại tầm trung như Galaxy A14, Redmi Note 13."
+  },
+  {
+    "Label": "gợi ý điện thoại cận cao cấp như iPhone 13, Galaxy S22."
+  },
+  {
+    "Budget": "trên 15 triệu",
+    "Label": "gợi ý flagship như iPhone 15 Pro Max hoặc Galaxy S24 Ultra."
+  },
+  {
+    "Color": "đen",
+    "Label": "ưu tiên điện thoại có thiết kế sang trọng."
+  },
+  {
+    "Color": "hồng",
+    "Label": "gợi ý iPhone 15 màu hồng hoặc Galaxy Z Flip tím."
+  },
+  {
+    "Color": "trắng",
+    "Label": "gợi ý điện thoại mặt lưng kính sáng bóng."
+  },
+  {
+    "Color": "xanh",
+    "Label": "gợi ý Oppo Reno8 xanh mint hoặc Redmi Note xanh."
+  },
+  {
+    "Label": "gợi ý iPhone từ iPhone 13 trở lên."
+  },
+  {
+    "Brand": "Samsung",
+    "Label": "gợi ý Galaxy A hoặc Galaxy S theo ngân sách."
+  },
+  {
+    "Brand": "Xiaomi",
+    "Label": "gợi ý Redmi Note hoặc Xiaomi 13."
+  },
+  {
+    "Brand": "Oppo",
+    "Label": "gợi ý dòng Reno hoặc Find X."
+  },
+  {
+    "Brand": "Vivo",
+    "Label": "gợi ý Vivo V series, nổi bật về selfie."
+  },
+  {
+    "Label": "gợi ý điện thoại có pin trâu và màn hình lớn."
+  },
+  {
+    "Label": "gợi ý điện thoại có AI chỉnh màu sống động."
+  },
+  {
+    "Label": "loại trừ Xiaomi, Realme, Vivo."
+  },
+  {
+    "Label": "gợi ý iPhone hoặc Google Pixel."
+  },
+  {
+    "Label": "gợi ý điện thoại có eSIM và kháng nước chuẩn IP68."
+  },
+  {
+    "Gender": "Nam",
+    "Needs": [
+      "chơi game"
+    ],
+    "Label": "gợi ý ASUS ROG Phone 8 hoặc Poco F5."
+  },
+  {
+    "Gender": "Nữ",
+    "Label": "gợi ý Vivo V30 hoặc Oppo Reno10."
+  },
+  {
+    "Gender": "Nam",
+    "Label": "gợi ý iPhone 14 Pro."
+  },
+  {
+    "Gender": "Nữ",
+    "Label": "gợi ý Redmi A2 hoặc Galaxy A05."
+  },
+  {
+    "Gender": "Nam",
+    "Brand": "Samsung",
+    "Label": "gợi ý Galaxy A34."
+  },
+  {
+    "Gender": "Nữ",
+    "Color": "hồng",
+    "Needs": [
+      "chụp ảnh"
+    ],
+    "Label": "gợi ý Z Flip 5 hoặc iPhone 15 màu hồng."
+  },
+  {
+    "Gender": "Nam",
+    "Label": "gợi ý Vivo V27 hoặc iPhone 13."
+  },
+  {
+    "Label": "gợi ý Nokia C32 hoặc iPhone SE."
+  },
+  {
+    "Label": "gợi ý Pixel 7a, ưu tiên camera và cập nhật Android."
+  },
+  {
+    "Label": "loại trừ iPhone bản Mỹ."
+  },
+  {
+    "Gender": "Nam",
+    "Label": "gợi ý Poco X5 hoặc Redmi Note 12."
+  },
+  {
+    "Gender": "Nữ",
+    "Label": "gợi ý iPhone 13 mini hoặc Galaxy Z Flip."
+  },
+  {
+    "Label": "gợi ý Pixel 6 hoặc OnePlus Nord 3."
+  },
+  {
+    "Label": "gợi ý iPhone 14 Pro Max hoặc Galaxy S23 Ultra."
+  },
+  {
+    "Needs": [
+      "chơi game"
+    ],
+    "Label": "gợi ý Poco F5 hoặc OnePlus Ace."
+  },
+  {
+    "Gender": "Nữ",
+    "Label": "gợi ý Vivo V27 Pro hoặc iPhone 13."
+  },
+  {
+    "Gender": "Nam",
+    "Label": "gợi ý iPhone 15 Pro Max."
+  },
+  {
+    "Gender": "Nữ",
+    "Brand": "Oppo",
+    "Needs": [
+      "chụp ảnh"
+    ],
+    "Label": "gợi ý Oppo Reno10 Pro."
+  },
+  {
+    "Brand": "Samsung",
+    "Label": "gợi ý Galaxy S23 Ultra."
+  },
+  {
+    "Label": "gợi ý điện thoại có giao diện đơn giản, chữ to như Nokia C32."
+  },
+  {
+    "Gender": "Nam",
+    "Label": "gợi ý điện thoại Bphone B86."
+  },
+  {
+    "Label": "gợi ý dòng gaming như ASUS ROG hoặc Infinix Zero Ultra."
+  },
+  {
+    "Gender": "Nam",
+    "Label": "ưu tiên điện thoại có hiệu năng cao và độ bền tốt."
+  },
+  {
+    "Gender": "Nữ",
+    "Label": "gợi ý Vivo V30 Pro hoặc Samsung Galaxy S series."
+  },
+  {
+    "Label": "gợi ý Redmi 13C hoặc Realme Narzo N55."
+  },
+  {
+    "Label": "gợi ý iPhone 13 hoặc Galaxy A54."
+  },
+  {
+    "Gender": "Nam",
+    "Label": "gợi ý Xiaomi 13 Ultra hoặc Pixel 7 Pro."
+  },
+  {
+    "Gender": "Nữ",
+    "Label": "gợi ý Galaxy Z Flip 5."
+  },
+  {
+    "Label": "gợi ý Sony Xperia 5 V."
+  },
+  {
+    "Label": "gợi ý iPhone SE hoặc Galaxy A34, dễ dùng và pin lâu."
+  },
+  {
+    "Label": "gợi ý iPhone 13 trở lên hoặc Galaxy S series."
+  },
+  {
+    "Label": "gợi ý điện thoại rugged như Doogee hoặc Blackview."
+  },
+  {
+    "Gender": "Nữ",
+    "Needs": [
+      "chụp ảnh"
+    ],
+    "Label": "gợi ý Pixel 6a hoặc Vivo V series."
+  },
+  {
+    "Label": "gợi ý điện thoại có mic thu âm tốt và camera trước >16MP."
+  },
+  {
+    "Label": "gợi ý Apple iPhone hoặc Google Pixel."
+  },
+  {
+    "Label": "gợi ý Nokia, Pixel hoặc Motorola."
+  },
+  {
+    "Gender": "Nam",
+    "Brand": "Oppo",
+    "Needs": [
+      "giải trí"
+    ],
+    "Label": "gợi ý Oppo Reno11."
+  },
+  {
+    "Gender": "Nữ",
+    "Needs": [
+      "học tập",
+      "giải trí"
+    ],
+    "Label": "gợi ý Redmi Note 13 hoặc Vivo Y series."
+  },
+  {
+    "Gender": "Nam",
+    "Label": "gợi ý Infinix Hot 30."
+  },
+  {
+    "Label": "gợi ý iPhone 13 hoặc Galaxy S23, độ bảo mật cao."
+  },
+  {
+    "Label": "gợi ý Pixel 7a hoặc iPhone 14."
+  },
+  {
+    "Label": "gợi ý điện thoại có hỗ trợ 5G đa băng tần."
+  },
+  {
+    "Label": "gợi ý điện thoại có ống kính telemacro như Xiaomi 13."
+  },
+  {
+    "Label": "gợi ý điện thoại có màn hình AMOLED, độ phủ màu cao."
+  },
+  {
+    "Label": "gợi ý Redmi Note 12 Turbo hoặc Realme GT Neo."
+  },
+  {
+    "Label": "gợi ý Galaxy S23 hoặc iPhone 14 Pro."
+  },
+  {
+    "Label": "gợi ý điện thoại có RAM từ 8GB trở lên."
+  },
+  {
+    "Label": "ưu tiên màn hình sáng > 1000 nits."
+  },
+  {
+    "Label": "gợi ý iPhone 13 trở lên hoặc Galaxy S21 FE."
+  },
+  {
+    "Label": "gợi ý điện thoại có chip xử lý ảnh tốt như iPhone, Pixel."
+  },
+  {
+    "Label": "gợi ý máy có màn hình 120Hz và tản nhiệt buồng hơi."
+  },
+  {
+    "Label": "gợi ý iPhone 13 mini hoặc Galaxy S10e."
+  },
+  {
+    "Label": "gợi ý Doogee V Max hoặc Samsung M51."
+  },
+  {
+    "Label": "gợi ý Nokia G22 hoặc Xiaomi Redmi 10A."
+  },
+  {
+    "Label": "gợi ý Pixel series hoặc Android One."
+  },
+  {
+    "Label": "gợi ý máy có RAM từ 12GB trở lên."
+  },
+  {
+    "Label": "gợi ý iPhone Pro hoặc Galaxy Ultra."
+  },
+  {
+    "Label": "gợi ý điện thoại có DAC rời hoặc hỗ trợ LDAC."
+  },
+  {
+    "Label": "gợi ý máy nhẹ dưới 180g."
+  },
+  {
+    "Needs": [
+      "chụp ảnh"
+    ],
+    "Label": "gợi ý Pixel, iPhone Pro hoặc Vivo dòng X."
+  },
+  {
+    "Label": "gợi ý điện thoại có OIS và EIS."
+  },
+  {
+    "Label": "gợi ý điện thoại có camera trước sắc nét và mic kép."
+  },
+  {
+    "Brand": "Iphone",
+    "Label": "gợi ý nâng cấp lên iPhone 13 trở lên."
+  },
+  {
+    "Label": "gợi ý chuyển sang điện thoại Android 13 trở lên."
+  },
+  {
+    "Label": "gợi ý điện thoại màn hình lớn ≥ 6.7\"."
+  },
+  {
+    "Label": "gợi ý điện thoại màn hình gập như Galaxy Z Fold hoặc Flip."
+  }
+]
