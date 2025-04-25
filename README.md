@@ -45,7 +45,7 @@
 
 1. Push mã nguồn lên branch `main`
 2. GitHub Actions sẽ publish thư mục `wwwroot` vào branch `gh-pages`
-3. Truy cập website tại: `https://hoangsnowy.github.io/SmartPhoneAdvisor/`
+3. 🎯 [Click để xem demo trực tiếp](https://hoangsnowy.github.io/SmartPhoneAdvisor/)
 
 ---
 
