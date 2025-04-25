@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "SmartPhoneAdvisor",
   "resources": {
-    "hash": "sha256-Rg8Y0aY3lKZMXOB57uaUiLUORt7LokoB5Qb5vPIPByA=",
+    "hash": "sha256-lPrp2/uzXgArgaNsrTutbMxA01SoIyGkzd4bQqsg5z4=",
     "jsModuleNative": {
       "dotnet.native.8.0.15.l5bze06whq.js": "sha256-ftpNqtARtVNE8ku5eB/jXoklb41UQ+EutUHfwmbNTBY="
     },
@@ -32,7 +32,7 @@
       "Microsoft.Extensions.Primitives.wasm": "sha256-Ms2HR5Gpug/0uRAzdk4SUNT76Ml3CjFv9Jo+dUIMGac=",
       "Microsoft.JSInterop.wasm": "sha256-zFg0Y1pJ9elYqhBThL6jLvY00t6ALHU6rfiyc4buWOQ=",
       "Microsoft.JSInterop.WebAssembly.wasm": "sha256-g67T8DzNXo4jgqaEAc5IV2geLKB19sYEWN3rozAJzm0=",
-      "SmartPhoneAdvisor.wasm": "sha256-mL2HvuhjetalHCdSXn/Ily7iAxFVcN5ved8t+tjAtIc=",
+      "SmartPhoneAdvisor.wasm": "sha256-w+wuGccYED/rMwMqXrcOoSYrffK7LuLLn0vyW5olu3c=",
       "System.Collections.Concurrent.wasm": "sha256-g6dPiV/O9OhtVEgGyry+4ZUHC8S8L2YK1Hj7fBdRVn0=",
       "System.Collections.NonGeneric.wasm": "sha256-W5duht5PwxXElnZzOUL5ICBXLRZKflqyHCy0ptuKGiY=",
       "System.Collections.Specialized.wasm": "sha256-vQXPVS9Q/MQwOMMotVGGgj2zQvNxrgylls45lh0Q5UU=",
